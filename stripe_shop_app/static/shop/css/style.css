@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.buy-btn {
+    background: linear-gradient(to right, #6366F1, #8B5CF6);
+    border: none;
+}
+
+.buy-btn:hover {
+    background: linear-gradient(to right, #8B5CF6, #6366F1);
+}
